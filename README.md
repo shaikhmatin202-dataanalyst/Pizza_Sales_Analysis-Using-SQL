@@ -1,10 +1,10 @@
-#🍕 Pizza Sales SQL Analysis
+# 🍕 Pizza Sales SQL Analysis
 
-#📌 Overview
+## 📌 Overview
 
 This project focuses on analyzing pizza sales data using SQL queries. The dataset contains details of pizza orders such as order date, time, category, size, quantity, and revenue. The main objective is to extract key business insights, identify sales trends, and generate useful KPIs for decision-making.
 
-#✨ Features
+## ✨ Features
 
 Calculation of key KPIs:
 
@@ -42,7 +42,7 @@ Monthly revenue for large pizzas
 
 Peak order hours for Supreme category
 
-#📊 Data Used
+## 📊 Data Used
 
 The dataset pizza_sales includes the following fields:
 
@@ -62,7 +62,7 @@ quantity – Number of pizzas ordered
 
 total_price – Price for the order line
 
-#⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 Clone the repository:
 
@@ -76,7 +76,7 @@ Run the queries provided in pizza_sales_queries.sql.
 
 Use the queries to explore different KPIs and insights.
 
-#🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Create interactive dashboards (Power BI / Tableau).
 
