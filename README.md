@@ -1,8 +1,11 @@
 🍕 Pizza Sales SQL Analysis
+📌 Overview
 
-This project contains SQL queries for analyzing pizza sales data. The queries are designed to extract key business insights such as revenue, order trends, category performance, and best/worst-selling pizzas.
+This project focuses on analyzing pizza sales data using SQL queries. The dataset contains details of pizza orders such as order date, time, category, size, quantity, and revenue. The main objective is to extract key business insights, identify sales trends, and generate useful KPIs for decision-making.
 
-📊 Key Metrics (KPIs)
+✨ Features
+
+Calculation of key KPIs:
 
 Total Revenue
 
@@ -12,54 +15,53 @@ Total Pizzas Sold
 
 Total Orders
 
-Average Pizzas per Order
+Average Pizzas Per Order
 
-📈 Analysis Queries
-1. Trend Analysis
+Sales Trends:
 
-Daily trend of total orders
+Daily and Monthly order trends
 
-Monthly trend of orders
+Sales Distribution:
 
-2. Sales Distribution
+Percentage of sales by pizza category
 
-% of sales by pizza category
+Percentage of sales by pizza size
 
-% of sales by pizza size
+Performance Insights:
 
-Total pizzas sold by category
+Top & Bottom 5 pizzas by Revenue, Quantity Sold, and Total Orders
 
-3. Top & Bottom Performers
+Advanced Analysis:
 
-Top 5 pizzas by revenue
-
-Bottom 5 pizzas by revenue
-
-Top 5 pizzas by quantity sold
-
-Bottom 5 pizzas by quantity sold
-
-Top 5 pizzas by total orders
-
-Bottom 5 pizzas by total orders
-
-4. Advanced Analysis
-
-Top 5 pizzas by orders in a specific category
+Category-specific top pizzas
 
 Revenue by pizza size for Veggie category
 
-Monthly revenue for Large pizzas
+Monthly revenue for large pizzas
 
 Peak order hours for Supreme category
 
-🛠️ Tech Stack
+📊 Data Used
 
-Database: SQL Server (or compatible RDBMS)
+The dataset pizza_sales includes the following fields:
 
-Language: SQL
+order_id – Unique order identifier
 
-🚀 How to Use
+order_date – Date of order
+
+order_time – Time of order
+
+pizza_name – Name of the pizza
+
+pizza_category – Category (Classic, Veggie, Supreme, etc.)
+
+pizza_size – Size (S, M, L, XL)
+
+quantity – Number of pizzas ordered
+
+total_price – Price for the order line
+
+⚙️ Setup Instructions
 
 Clone the repository:
 
@@ -67,14 +69,16 @@ git clone https://github.com/your-username/pizza-sales-sql.git
 cd pizza-sales-sql
 
 
-Import the pizza_sales dataset into your SQL Server.
+Import the dataset into your SQL Server / MySQL / PostgreSQL environment.
 
-Run the queries from the pizza_sales_queries.sql file in SSMS or any SQL client.
+Run the queries provided in pizza_sales_queries.sql.
 
-📌 Future Enhancements
+Use the queries to explore different KPIs and insights.
 
-Create visual dashboards in Power BI / Tableau.
+🚀 Future Enhancements
 
-Automate report generation.
+Create interactive dashboards (Power BI / Tableau).
 
-Add more advanced time-series and customer segmentation analysis.
+Automate SQL reports using stored procedures.
+
+Integrate with Python for deeper statistical analysis.
